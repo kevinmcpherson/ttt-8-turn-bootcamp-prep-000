@@ -43,7 +43,7 @@ def turn(board)
       index = input_to_index(i)
       m = valid_move?(board, index)
       move(board, index)
-      display_board(board)
+      
     end
   end
 end
