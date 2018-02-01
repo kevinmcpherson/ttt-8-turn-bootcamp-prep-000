@@ -15,5 +15,3 @@ new_move = input_to_index(input)
 move(board, new_move)
 
 valid_move (board, index)
-
-display_board(board)
