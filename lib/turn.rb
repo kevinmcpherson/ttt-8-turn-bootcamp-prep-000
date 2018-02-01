@@ -33,7 +33,7 @@ def turn(board)
   index = input_to_index(i)
   m = valid_move?(board, index)
   if m == true
-    move(board, index, current_player(board))
+    move(board, index)
   else m == false
     until m == true
       puts "Oops, Invalid move. Please enter 1-9:"
