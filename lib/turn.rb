@@ -16,7 +16,11 @@ def valid_move?(board, index)
 end
 
 def position_taken?(board, index)
-  !(board[index].nil? || board[index] == " " || board[index] == "")
+  if board[index] == " " || board[index] == "" || board[index] == nil
+    false
+  else board[index] == "X" || board[index] == "O"
+    true
+  end
 end
 
 def turn(board)
