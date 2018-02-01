@@ -36,7 +36,7 @@ def turn(board)
     move(board, index)
   else m == false
     until m == true
-      puts "Oops, Invalid move. Please enter 1-9:"
+      puts "Oops, Invalid move. Please enter 1-9: \n"
       display_board(board)
       i = gets.strip
       index = input_to_index(i)
