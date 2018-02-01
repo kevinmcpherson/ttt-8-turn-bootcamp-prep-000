@@ -41,7 +41,7 @@ def turn(board)
       i = gets.strip
       index = input_to_index(i)
       m = valid_move?(board, index)
-      move(board, index, current_player(board))
+      move(board, index)
     end
   end
 end
