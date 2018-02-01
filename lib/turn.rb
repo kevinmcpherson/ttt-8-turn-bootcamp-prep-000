@@ -32,7 +32,7 @@ def turn(board)
     move(board, index, current_player(board))
   else m == false
     until m == true
-      puts "Sorry, that was an invalid move. Please enter 1-9:"
+      puts "Oops, Invalid move. Please enter 1-9:"
       display_board(board)
       i = gets.strip
       index = input_to_index(i)
